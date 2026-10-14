@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NEXO VR Lab: investigación y experiencias de realidad virtual que amplían los límites de lo posible.">
+  <title>NEXO VR Lab — Realidad virtual, sin límites</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow page-glow--top" aria-hidden="true"></div>
+  <div class="page-glow page-glow--bottom" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="NEXO VR Lab, inicio">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>NEXO <em>VR</em> LAB</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#laboratorio">El laboratorio</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#contacto" class="nav-cta">Visita el lab <span>↗</span></a>
+    </nav>
+    <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="laboratorio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Laboratorio de realidad virtual</p>
+        <h1>Explora lo que<br><span>todavía no existe.</span></h1>
+        <p class="hero-intro">Diseñamos nuevos mundos para entrenar, aprender y sentir de otra manera. La realidad es solo el punto de partida.</p>
+        <a class="button button--primary" href="#contacto">Entra en la experiencia <span>↗</span></a>
+        <div class="hero-stats" aria-label="Datos del laboratorio">
+          <div><strong>360°</strong><span>de posibilidades</span></div>
+          <div><strong>01</strong><span>nuevo mundo cada día</span></div>
+          <div><strong>∞</strong><span>formas de conectar</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustración abstracta de un visor de realidad virtual">
+        <div class="orbit orbit--one"></div>
+        <div class="orbit orbit--two"></div>
+        <div class="orbit orbit--three"></div>
+        <div class="vr-visor">
+          <div class="visor-glass"><span class="glass-line"></span><span class="glass-line glass-line--two"></span></div>
+          <div class="visor-lens visor-lens--left"><span></span></div>
+          <div class="visor-lens visor-lens--right"><span></span></div>
+          <div class="visor-strap"></div>
+        </div>
+        <span class="floating-label floating-label--one">01 / INMERSIÓN</span>
+        <span class="floating-label floating-label--two">REALIDAD<br>AMPLIFICADA</span>
+        <span class="art-cross art-cross--one">+</span>
+        <span class="art-cross art-cross--two">+</span>
+      </div>
+    </section>
+
+    <section class="intro-section" id="experiencias">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Una nueva perspectiva</p>
+        <h2>La distancia entre<br><span>imaginar y vivirlo.</span></h2>
+      </div>
+      <p class="section-description">En NEXO convertimos ideas imposibles en experiencias habitables. Unimos diseño, tecnología y curiosidad para crear herramientas que dejan huella.</p>
+    </section>
+
+    <section class="experience-grid" aria-label="Áreas de experiencia">
+      <article class="experience-card experience-card--violet">
+        <span class="card-number">01</span>
+        <div class="card-icon card-icon--rings" aria-hidden="true"><span></span><span></span><span></span></div>
+        <h3>Explora<br>sin límites.</h3>
+        <p>Entornos que despiertan los sentidos y hacen posible lo inesperado.</p>
+        <a href="#contacto" aria-label="Conocer experiencias inmersivas">Descubrir <span>↗</span></a>
+      </article>
+      <article class="experience-card experience-card--cyan">
+        <span class="card-number">02</span>
+        <div class="card-icon card-icon--cube" aria-hidden="true">◇</div>
+        <h3>Aprende<br>haciendo.</h3>
+        <p>Entrenamiento inmersivo para recordar, practicar y mejorar de verdad.</p>
+        <a href="#contacto" aria-label="Conocer aprendizaje inmersivo">Descubrir <span>↗</span></a>
+      </article>
+      <article class="experience-card experience-card--orange">
+        <span class="card-number">03</span>
+        <div class="card-icon card-icon--spark" aria-hidden="true">✦</div>
+        <h3>Conecta<br>de otra forma.</h3>
+        <p>Espacios compartidos donde las ideas y las personas se encuentran.</p>
+        <a href="#contacto" aria-label="Conocer espacios compartidos">Descubrir <span>↗</span></a>
+      </article>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Tu próxima realidad</p>
+        <h2>¿Entramos<br><span>juntos?</span></h2>
+        <p>Déjanos tu contacto y te contaremos cómo llevar tu idea a una dimensión nueva.</p>
+      </div>
+      <form class="contact-form" novalidate>
+        <div class="input-group">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Tu nombre" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="tu@email.com" required>
+        </div>
+        <button class="button button--light" type="submit">Quiero entrar <span>↗</span></button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#" aria-label="Volver al inicio">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>NEXO <em>VR</em> LAB</span>
+    </a>
+    <p>Realidad virtual para mentes inquietas.</p>
+    <span class="footer-year">© 2024 — 2025</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
